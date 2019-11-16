@@ -1,5 +1,11 @@
 1 git clone url 
 2 git add 文件名 
 3 git commit -m"注释" //提交缓存区
-4 git push //注意要联网 和设置权限
+4 git push //注意要联网 和设置权限 
+//账号密码存在特殊字符，要转化为UrlEncode编码 如@ == %40
 cd .. 返回上一层
+
+git pull
+拉取线上文件
+
+git test分支新增
